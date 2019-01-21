@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/create_geofence"
+        android:icon="@drawable/ic_create_black_24dp"
+        android:title="Create Geofence" />
+    <item
+        android:id="@+id/remove_geofence"
+        android:icon="@drawable/ic_remove_black_24dp"
+        android:title="Remove Geofence" />
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GeoFence</string>
+    <string name="title_activity_maps">GeoFence</string>
+    <string name="OK">OK</string>
+    <string name="create">CREATE</string>
+    <string name="search_create">Search and create Geofence</string>
+    <string name="create_geofence">Create Geofence</string>
+    <string name="remove_geofence">Remove Geofence</string>
+    <string name="search_hint">Search</string>
+
+</resources>

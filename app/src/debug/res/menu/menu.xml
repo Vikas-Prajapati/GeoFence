@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/map_type_normal"
+        android:orderInCategory="100"
+        android:title="Normal" />
+
+    <item
+        android:id="@+id/map_type_none"
+        android:orderInCategory="100"
+        android:title="None" />
+    <item
+        android:id="@+id/map_type_terrain"
+        android:orderInCategory="100"
+        android:title="Terrain" />
+    <item
+        android:id="@+id/map_type_satellite"
+        android:orderInCategory="100"
+        android:title="Satellite" />
+    <item
+        android:id="@+id/map_type_hybrid"
+        android:orderInCategory="100"
+        android:title="Hybrid" />
+</menu>
